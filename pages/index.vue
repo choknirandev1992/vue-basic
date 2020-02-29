@@ -3,39 +3,19 @@
      <section class="intro">
         <h1>Get the latest tech news!</h1>
      </section>
-     <section class="feature-post">
 
-       <PostPreview
-         id="1"
-         thumbnail="https://wallpaperaccess.com/full/158826.jpg"
-         title="Hello"
-         PreviewText="chokniran"
-       />
+     <postList/>
 
-       <PostPreview
-         id="2"
-         thumbnail="https://wallpaperaccess.com/full/158826.jpg"
-         title="Hello"
-         PreviewText="chokniran"
-       />
-
-       <PostPreview
-         id="3"
-         thumbnail="https://wallpaperaccess.com/full/158826.jpg"
-         title="Hello"
-         PreviewText="chokniran"
-       />
-
-     </section>
   </div>
 </template>
 
 <script>
-import  PostPreview  from '@/components/Posts/PostPreview'
 
-export default{
+import  PostList  from '@/components/Posts/PostList'
+
+export default {
   components: {
-      PostPreview
+      PostList
   }
 }
 
