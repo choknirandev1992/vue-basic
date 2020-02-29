@@ -48,6 +48,7 @@ export default{
   box-sizing: border-box;
   background-position: center;
   background-size: cover;
+  background-image: url('~assets/images/original.jpg')
 }
 
 .post-thumnail {
